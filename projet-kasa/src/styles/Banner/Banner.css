@@ -1,0 +1,23 @@
+.Home_Image_Banner {
+  height: 140px;
+  width: 100%;
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../assets/Home_Mobile_Banner.png);
+  background-size: cover;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 5%;
+}
+.Home_Image_Banner > h1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  padding: 20px 0 0 20px;
+}
+
+.Propos_Image_Banner {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(0.6);
+  margin-top: 3%;
+}/*# sourceMappingURL=Banner.css.map */

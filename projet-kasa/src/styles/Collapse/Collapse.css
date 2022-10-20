@@ -1,0 +1,37 @@
+.bandeau {
+  background: #FF6060;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3% 0 3%;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.bandeau .bandeau_titre {
+  margin: 0;
+  font-size: 16px;
+}
+.bandeau .bandeau_span {
+  background-color: #FF6060;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.descriptif {
+  background: rgb(239, 239, 239);
+  color: #FF6060;
+  font-weight: 500;
+  padding: 3% 5% 5% 5%;
+  margin: -2% 0 8% 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 1;
+}
+
+.close {
+  margin: 5% 0 10% 0;
+}/*# sourceMappingURL=Collapse.css.map */

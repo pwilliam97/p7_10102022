@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 4% 0 4%;
+    
+    .logo{
+        width: 40%;
+    }
+
+    .nav_header {
+        width: 45%;
+    }
+}
+
+.nav_header_liste{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+    padding: 0 0 0 20px;
+
+    >li{
+        font-size: 12px;
+
+        :hover {
+            border-bottom: 1px solid #FF6060;
+        }
+        
+        >a {
+            text-decoration: none;
+            color: #FF6060;
+
+        }
+    }
+}
