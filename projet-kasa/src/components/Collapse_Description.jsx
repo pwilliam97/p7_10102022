@@ -18,15 +18,15 @@ function CollapseDescription(){
     }
 
     return ( 
-        <div className='collapse'>
-            <div className={`bandeau ${open ? '' : 'close'}`}>
-                <h2 className='bandeau_titre'>Description</h2>
-                <button className='bandeau_span' onClick = { toggle }>
+        <div className='collapse_description'>
+            <div className="barre">
+                <h2 className='barre_titre'>Description</h2>
+                <button className='barre_span' onClick = { toggle }>
                     { open ? <i className='fa-solid fa-angle-up'/> : <i className='fa-solid fa-angle-down'/> }
                 </button>
             </div>
             {open && (
-                <div className='descriptif'>
+                <div className='deroulant'>
                     <p>{logement.description}</p>
                 </div>
             )}

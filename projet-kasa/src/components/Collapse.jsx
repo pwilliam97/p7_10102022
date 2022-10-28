@@ -16,7 +16,7 @@ function Collapse(props){
 
     return ( 
         <div className='collapse'>
-            <div className={`bandeau ${open ? '' : 'close'}`}>
+            <div className="bandeau">
                 <h2 className='bandeau_titre'>{item.titre}</h2>
                 <button className='bandeau_span' onClick = { toggle }>
                     { open ? <i className='fa-solid fa-angle-up'/> : <i className='fa-solid fa-angle-down'/> }

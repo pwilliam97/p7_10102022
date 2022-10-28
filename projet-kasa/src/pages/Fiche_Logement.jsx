@@ -14,6 +14,7 @@ import Logement from '../assets/logements.json'
 
 // Importation du CSS
 import '../styles/Fiche_Logement/Fiche_Logement.css'
+import '../styles/Collapse_Logement/CollapseLogement.css'
 
 function Fiche_Logement(){
     const {logementId} = useParams();
