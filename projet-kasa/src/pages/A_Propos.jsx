@@ -4,8 +4,6 @@ import React from 'react'
 // Importation des Components
 import Collapse from '../components/Collapse'
 
-// Importation des assets
-import Mobile_Banner from '../assets/Propos_Mobile_Banner.png'
 
 const dataCollapse =[
     {
@@ -28,9 +26,9 @@ const dataCollapse =[
 
 function A_Propos(){
     return (
-        <main>
-            <img src={Mobile_Banner} alt="Paysage montagne" className='Propos_Image_Banner'/>
-            {dataCollapse.map((item) => <Collapse key={item.titre} item={item} /> )}
+        <main className='propos_Main'>
+            <div className='Propos_Image_Banner'></div>
+            <div className='collapse_Div'>{dataCollapse.map((item) => <Collapse key={item.titre} item={item} /> )}</div>
         </main>
     )
 }

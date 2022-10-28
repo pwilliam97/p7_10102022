@@ -1,3 +1,16 @@
+.collapse_Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4% 0 4% 0;
+}
+.collapse_Div > .collapse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .bandeau {
   background: #FF6060;
   display: flex;
@@ -8,16 +21,18 @@
   color: white;
   position: relative;
   z-index: 2;
+  margin: 2% 0 2% 0;
+  width: 70%;
 }
 .bandeau .bandeau_titre {
   margin: 0;
-  font-size: 16px;
+  font-size: 22px;
 }
 .bandeau .bandeau_span {
   background-color: #FF6060;
   border: none;
   color: white;
-  font-size: 24px;
+  font-size: 32px;
   cursor: pointer;
 }
 
@@ -25,13 +40,38 @@
   background: rgb(239, 239, 239);
   color: #FF6060;
   font-weight: 500;
-  padding: 3% 5% 5% 5%;
-  margin: -2% 0 8% 0;
+  font-size: 24px;
+  padding: 1% 1% 0 1%;
+  margin: -3% 0 0 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
+  width: 74%;
 }
 
-.close {
-  margin: 5% 0 10% 0;
+@media all and (min-width: 641px) and (max-width: 1100px) {
+  .descriptif {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 640px) {
+  .collapse_Div {
+    margin: 10% 0 14% 0;
+  }
+  .bandeau {
+    width: 95%;
+    margin: 5% 0 5% 0;
+  }
+  .bandeau .bandeau_titre {
+    font-size: 16px;
+  }
+  .bandeau .bandeau_span {
+    font-size: 24px;
+  }
+  .descriptif {
+    font-size: 14px;
+    padding: 3% 2% 5% 3%;
+    margin: -6% 0 8% 0;
+    width: 95%;
+  }
 }/*# sourceMappingURL=Collapse.css.map */

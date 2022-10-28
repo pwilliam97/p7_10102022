@@ -8,22 +8,17 @@ import Cards from '../components/Cards'
 // Importation du CSS
 
 // Importation des assets
-import logement from '../assets/logements.json'
-
-// import Logements from '../logements.json'
-
+import Logement from '../assets/logements.json'
 
 function Home(){
 
     return (
         <main>
-            <div className='home_Main'>
+            <div>
                 <Banner/>
-                {logement.map((item) => <Cards item = {item} key = {item.id}/>)}
+                <div className='cards_Div'>{Logement.map((item) => <Cards item = {item} key = {item.id}/>)}</div>
             </div>
         </main>
-
-        //faire boucle for each pour afficher la card avec titre et image
     )
 }
 

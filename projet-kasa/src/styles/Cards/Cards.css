@@ -1,16 +1,58 @@
+.cards_Div {
+  background: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 4%;
+  padding: 1%;
+}
+
 .home_Cards {
+  width: 31%;
   text-decoration: none;
-  margin-bottom: 5%;
-  height: 250px;
   color: white;
+  padding: 1%;
 }
 .home_Cards > img {
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
-  height: 250px;
 }
 .home_Cards > h1 {
-  width: 80%;
-  padding: 0 0 5% 5%;
-  margin-top: -15%;
-  font-size: 14px;
+  height: 10%;
+  font-size: 18px;
+  z-index: 2;
+  padding: 0 0 0 5%;
+  width: 75%;
+  margin: -75px 0 0 0;
+}
+
+@media all and (min-width: 641px) and (max-width: 1100px) {
+  .home_Cards {
+    width: 45%;
+    height: 300px;
+  }
+  .home_Cards > h1 {
+    width: 90%;
+    margin: -75px 0 0 0;
+  }
+}
+@media all and (max-width: 640px) {
+  .cards_Div {
+    background: none;
+    flex-direction: column;
+  }
+  .home_Cards {
+    width: 100%;
+    padding-bottom: 4%;
+    height: 250px;
+    padding-left: 0;
+  }
+  .home_Cards > h1 {
+    width: 50%;
+    font-size: 14px;
+    margin: -55px 0 0 0;
+  }
 }/*# sourceMappingURL=Cards.css.map */

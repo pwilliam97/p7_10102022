@@ -8,7 +8,7 @@ import '../styles/Banner/Banner.css'
 function Banner(){
     return (
         <div className='Home_Image_Banner'>
-            <h1 className='Home_Image_Banner_Title'>Chez vous,<br/> partout ailleurs</h1>
+            <h1 className='Home_Image_Banner_Title'>Chez vous, partout et ailleurs</h1>
         </div>
     )
 }

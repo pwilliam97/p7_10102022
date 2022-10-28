@@ -5,23 +5,66 @@
     color:#FF6060;
     
     >h1 {   
-        height: 170px;
-        font-size: 120px;
-        margin: 25% 0 0 0;
+        margin: 0;
+        font-size: 200px;
     }
 
     >p {
-        font-weight: 500;
-        width: 70%;
+        margin: 0;
+        font-size: 24px;
         text-align: center;
     }
 
     >nav {
-        margin: 15% 0 30% 0;
+        margin: 14% 0 15% 0;
         >a{
+            font-weight: 500;
             border-bottom: 1px solid #FF6060;
             color:#FF6060;
             text-decoration: none;
+        }
+    }
+}
+
+@media all and (min-width : 641px) and (max-width : 1100px){
+    .error_Status {
+        
+        >h1 {   
+            height: 170px;
+            font-size: 150px;
+            margin: 25% 0 0 0;
+        }
+
+        >p {
+            margin-top: 5%;
+            font-weight: 500;
+            width: 70%;
+            text-align: center;
+        }
+
+        >nav {
+            margin: 25% 0 40% 0;
+        }
+    }
+}
+
+@media all and (max-width : 640px) {
+    .error_Status {
+        
+        >h1 {   
+            height: 170px;
+            font-size: 120px;
+            margin: 25% 0 0 0;
+        }
+
+        >p {
+            font-weight: 500;
+            width: 70%;
+            text-align: center;
+        }
+
+        >nav {
+            margin: 25% 0 40% 0;
         }
     }
 }

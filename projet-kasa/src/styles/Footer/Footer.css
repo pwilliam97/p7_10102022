@@ -4,14 +4,27 @@ footer {
   align-items: center;
   width: 100%;
   background: black;
-  padding: 55px 0 55px 0;
+  padding-top: 5%;
 }
 footer .logo {
-  width: 35%;
+  width: 10%;
   filter: brightness(3);
 }
 footer > p {
+  padding-top: 2%;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
+}
+
+@media all and (max-width: 640px) {
+  footer {
+    padding: 12% 0 12% 0;
+  }
+  footer .logo {
+    width: 35%;
+  }
+  footer > p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Footer.css.map */

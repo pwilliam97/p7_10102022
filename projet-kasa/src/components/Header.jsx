@@ -11,7 +11,7 @@ import '../styles/Header/Header.css'
 function Header(){
     return (
         <header>
-            <img src={Logo} alt={Logo} className='logo'/>
+            <Link to="/"><img src={Logo} alt={Logo} className='logo'/></Link>
             <nav className='nav_header'>
                 <ul className='nav_header_liste'>
                     <li><Link to="/">ACCEUIL</Link></li>

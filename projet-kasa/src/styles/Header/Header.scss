@@ -2,26 +2,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4% 4% 0 4%;
+    padding: 2% 4% 0 4%;
     
-    .logo{
-        width: 40%;
+    >Link{
+        .logo{
+            width: 15%;
+        }
     }
 
     .nav_header {
-        width: 45%;
+        width: 25%;
     }
 }
 
 .nav_header_liste{
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    margin: 0;
     list-style-type: none;
-    padding: 0 0 0 20px;
 
     >li{
-        font-size: 12px;
+        font-size: 22px;
+        font-weight: 500;
 
         :hover {
             border-bottom: 1px solid #FF6060;
@@ -31,6 +33,51 @@ header {
             text-decoration: none;
             color: #FF6060;
 
+        }
+    }
+}
+
+@media all and (min-width : 641px) and (max-width : 1100px){
+    header {
+
+        padding: 4% 4% 0 4%;
+        
+        .logo{
+            width: 60%;
+        }
+
+        .nav_header {
+            width: 45%;
+        }
+    }
+
+    .nav_header_liste{
+        margin: 0;
+        padding: 0 0 0 20px;
+
+        >li{
+            font-size: 18px;
+        }
+    }
+}
+
+@media all and (max-width : 640px) {
+    header {
+        
+        .logo{
+            width: 40%;
+        }
+
+        .nav_header {
+            width: 45%;
+        }
+    }
+
+    .nav_header_liste{
+
+
+        >li{
+            font-size: 12px;
         }
     }
 }

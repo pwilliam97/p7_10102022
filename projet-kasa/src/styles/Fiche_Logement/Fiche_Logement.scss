@@ -1,0 +1,218 @@
+@media all and (min-width : 1100px) {
+    .renseignement{
+        margin: 3% 0 5% 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    
+        .renseignement_localisation{
+            display: flex;
+            flex-direction: column;
+            color: #FF6060;
+    
+            >h2 {
+                margin: -3% 0 -2% 0;
+                font-weight: 500;
+                font-size: 32px;
+            }
+    
+            >h3{
+                margin: 2% 0 0 0;
+                font-size: 20px;
+                font-weight: 500;
+            }
+    
+            >ul{
+                display: flex;
+                padding: 0;
+                color: white;
+    
+    
+                >li {
+                    width: auto;
+                    padding: 0 5% 0 5%;
+                    list-style: none;
+                    margin-right: 5%;
+                    border-radius: 5px;
+                    background-color: #FF6060;
+                }
+            }
+        }
+    
+        .renseignement_hebergement{
+            display: flex;
+            flex-direction: column-reverse;
+            height: 120px;
+
+            >.host{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+    
+                >.host_name{
+                    font-size: 18px;
+                    width: 30%;
+                    margin: 0;
+                    color: #FF6060;
+                }
+    
+                >.host_picture{
+                    border-radius: 100px;
+                    height: 70%;
+                }
+            }
+    
+            >p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media all and (min-width : 641px) and (max-width : 1100px){
+    .renseignement{
+        margin: 5% 0 5% 0;
+
+        .renseignement_localisation{
+            display: flex;
+            flex-direction: column;
+            color: #FF6060;
+
+            >h2 {
+                margin: -3% 0 -2% 0;
+                font-weight: 500;
+                font-size: 30px;
+            }
+
+            >h3{
+                margin: 2% 0 2% 0;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            >ul{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                color: white;
+                width: 100%;
+                height: 50px;
+                margin: 0;
+
+                >li {
+                    height: 25px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    list-style: none;
+                    margin: 0 5% 0 0;
+                    padding: 0 6% 0 6%;
+                    background: #FF6060;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .renseignement_hebergement{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+
+            >.host{
+                display: flex;
+                justify-content: end;
+
+                >.host_name{
+                    font-size: 16px;
+                    width: 30%;
+                    margin: 0;
+                    color: #FF6060;
+                }
+
+                >.host_picture{
+                    border-radius: 100px;
+                    height: 70px;
+                }
+            }
+
+            >p{
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width : 640px) {
+    .renseignement{
+        margin: 5% 0 5% 0;
+
+        .renseignement_localisation{
+            display: flex;
+            flex-direction: column;
+            color: #FF6060;
+
+            >h2 {
+                margin: -3% 0 -2% 0;
+                font-weight: 500;
+                font-size: 26px;
+            }
+
+            >h3{
+                margin: 2% 0 2% 0;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            >ul{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 0;
+                color: white;
+                width: 100%;
+                height: 50px;
+                margin: 0;
+
+                >li {
+                    height: 20px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    list-style: none;
+                    margin: 0 5% 0 0;
+                    padding: 0 6% 0 6%;
+                    background: #FF6060;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+        .renseignement_hebergement{
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+            margin-top: 3%;
+
+            >.host{
+                display: flex;
+                align-items: start;
+                justify-content: end;
+
+                >.host_name{
+                    font-size: 16px;
+                    width: 30%;
+                    margin: 0;
+                    color: #FF6060;
+                }
+
+                >.host_picture{
+                    border-radius: 100px;
+                    height: 100%;
+                }
+            }
+
+            >p{
+                margin: 0;
+            }
+        }
+    }
+}
