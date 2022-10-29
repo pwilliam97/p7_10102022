@@ -41,7 +41,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../assets/Home_Mobile_Banner.png);
   }
   .Home_Image_Banner > h1 {
-    width: 70%;
+    width: 55%;
     font-size: 28px;
     line-height: 32px;
     padding: 1% 0 0 7%;

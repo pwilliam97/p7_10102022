@@ -32,7 +32,7 @@
 @media all and (min-width: 641px) and (max-width: 1100px) {
   .home_Cards {
     width: 45%;
-    height: 300px;
+    height: 250px;
   }
   .home_Cards > h1 {
     width: 90%;

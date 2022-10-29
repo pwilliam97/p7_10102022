@@ -1,7 +1,7 @@
 .renseignement_collapse {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-top: -3%;
   margin-bottom: 5%;
 }
@@ -32,6 +32,7 @@
 .barre .barre_titre {
   margin: 0;
   font-size: 22px;
+  font-weight: 500;
 }
 .barre .barre_span {
   background-color: #FF6060;
@@ -45,36 +46,51 @@
   background: rgb(239, 239, 239);
   color: #FF6060;
   font-weight: 500;
-  font-size: 24px;
-  padding: 1% 0 2% 2%;
+  font-size: 20px;
+  padding: 1% 1% 2% 2%;
   margin: -3% 0 0 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 1;
-  width: 94%;
+  width: 93%;
   list-style: none;
 }
 
 @media all and (min-width: 641px) and (max-width: 1100px) {
+  .renseignement_collapse {
+    flex-direction: column;
+  }
+  .renseignement_collapse .collapse_description {
+    width: 100%;
+  }
+  .renseignement_collapse .collapse_equipement {
+    width: 100%;
+  }
+  .barre {
+    width: 90%;
+  }
   .descriptif {
+    width: 100%;
     font-size: 20px;
   }
 }
 @media all and (max-width: 640px) {
+  .renseignement_collapse {
+    flex-direction: column;
+  }
+  .renseignement_collapse .collapse_description {
+    width: 100%;
+  }
+  .renseignement_collapse .collapse_equipement {
+    width: 100%;
+  }
   .collapse_Div {
     margin: 10% 0 14% 0;
   }
-  .bandeau {
-    width: 95%;
-    margin: 5% 0 5% 0;
+  .barre {
+    width: 94%;
   }
-  .bandeau .bandeau_titre {
-    font-size: 16px;
-  }
-  .bandeau .bandeau_span {
-    font-size: 24px;
-  }
-  .descriptif {
+  .deroulant {
     font-size: 14px;
     padding: 3% 2% 5% 3%;
     margin: -6% 0 8% 0;

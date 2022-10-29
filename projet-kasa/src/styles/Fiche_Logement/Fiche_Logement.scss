@@ -1,6 +1,6 @@
 @media all and (min-width : 1100px) {
     .renseignement{
-        margin: 3% 0 5% 0;
+        margin: 3% 0 3% 0;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -33,7 +33,7 @@
                     padding: 0 5% 0 5%;
                     list-style: none;
                     margin-right: 5%;
-                    border-radius: 5px;
+                    border-radius: 10px;
                     background-color: #FF6060;
                 }
             }
@@ -55,6 +55,7 @@
                     width: 30%;
                     margin: 0;
                     color: #FF6060;
+                    font-weight: 500;
                 }
     
                 >.host_picture{
@@ -63,8 +64,11 @@
                 }
             }
     
-            >p{
-                margin: 0;
+            >.rating{
+                display: flex;
+                justify-content: center;
+                color: #FF6060;
+                font-size: 22px;
             }
         }
     }
@@ -86,7 +90,7 @@
             }
 
             >h3{
-                margin: 2% 0 2% 0;
+                margin: 2% 0 0 0;
                 font-size: 18px;
                 font-weight: 500;
             }
@@ -105,7 +109,7 @@
                     font-size: 16px;
                     font-weight: 500;
                     list-style: none;
-                    margin: 0 5% 0 0;
+                    margin: 1% 5% 0 0;
                     padding: 0 6% 0 6%;
                     background: #FF6060;
                     border-radius: 5px;
@@ -122,11 +126,12 @@
             >.host{
                 display: flex;
                 justify-content: end;
+                align-items: center;
 
                 >.host_name{
                     font-size: 16px;
                     width: 30%;
-                    margin: 0;
+                    margin: 0 7% 0 0;
                     color: #FF6060;
                 }
 
@@ -136,8 +141,10 @@
                 }
             }
 
-            >p{
-                margin: 0;
+            >.rating{
+               display: flex;
+               color: #FF6060;
+               font-size: 20px;
             }
         }
     }
@@ -189,8 +196,9 @@
         .renseignement_hebergement{
             display: flex;
             justify-content: space-between;
+            align-items: center;
             height: 50px;
-            margin-top: 3%;
+
 
             >.host{
                 display: flex;
@@ -202,17 +210,20 @@
                     width: 30%;
                     margin: 0;
                     color: #FF6060;
+                    font-weight: 500;
                 }
 
                 >.host_picture{
                     border-radius: 100px;
-                    height: 100%;
+                    height: 50px;
+                    margin-left: 7%;
                 }
             }
 
-            >p{
-                margin: 0;
-            }
+            >.rating{
+                display: flex;
+                color: #FF6060;
+             }
         }
     }
 }

@@ -9,6 +9,8 @@ header > Link .logo {
 }
 header .nav_header {
   width: 25%;
+  display: flex;
+  justify-content: end;
 }
 
 .nav_header_liste {
@@ -16,6 +18,7 @@ header .nav_header {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  width: 80%;
 }
 .nav_header_liste > li {
   font-size: 22px;
@@ -31,10 +34,10 @@ header .nav_header {
 
 @media all and (min-width: 641px) and (max-width: 1100px) {
   header {
-    padding: 4% 4% 0 4%;
+    padding: 3% 4% 0 4%;
   }
   header .logo {
-    width: 60%;
+    width: 80%;
   }
   header .nav_header {
     width: 45%;
@@ -49,12 +52,12 @@ header .nav_header {
 }
 @media all and (max-width: 640px) {
   header .logo {
-    width: 40%;
+    width: 70%;
   }
   header .nav_header {
     width: 45%;
   }
   .nav_header_liste > li {
-    font-size: 12px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=Header.css.map */

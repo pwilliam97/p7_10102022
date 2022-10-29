@@ -12,6 +12,7 @@
   margin: 0;
   font-size: 24px;
   text-align: center;
+  font-weight: 500;
 }
 .error_Status > nav {
   margin: 14% 0 15% 0;
@@ -27,7 +28,7 @@
   .error_Status > h1 {
     height: 170px;
     font-size: 150px;
-    margin: 25% 0 0 0;
+    margin: 15% 0 0 0;
   }
   .error_Status > p {
     margin-top: 5%;
@@ -36,21 +37,21 @@
     text-align: center;
   }
   .error_Status > nav {
-    margin: 25% 0 40% 0;
+    margin: 20% 0 30% 0;
   }
 }
 @media all and (max-width: 640px) {
   .error_Status > h1 {
     height: 170px;
     font-size: 120px;
-    margin: 25% 0 0 0;
+    margin: 30% 0 0 0;
   }
   .error_Status > p {
     font-weight: 500;
-    width: 70%;
+    width: 66%;
     text-align: center;
   }
   .error_Status > nav {
-    margin: 25% 0 40% 0;
+    margin: 28% 0 40% 0;
   }
 }/*# sourceMappingURL=NotFound.css.map */

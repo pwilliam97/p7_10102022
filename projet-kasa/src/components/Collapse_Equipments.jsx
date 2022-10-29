@@ -16,13 +16,15 @@ function CollapseEquipments(props){
     return ( 
         <div className='collapse_equipement'>
             <div className="barre">
-                <h2 className='barre_titre'>Equipements</h2>
+                <h2 className='barre_titre'>Équipements</h2>
                 <button className='barre_span' onClick = { toggle }>
                     { open ? <i className='fa-solid fa-angle-up'/> : <i className='fa-solid fa-angle-down'/> }
                 </button>
             </div>
             {open && (
-                <li className='deroulant'>{equipments}</li>
+                <div className='deroulant'>
+                    <p>{equipments}</p>
+                </div>
             )}
         </div>
     )

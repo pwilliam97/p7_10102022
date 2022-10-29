@@ -14,8 +14,8 @@ function Header(){
             <Link to="/"><img src={Logo} alt={Logo} className='logo'/></Link>
             <nav className='nav_header'>
                 <ul className='nav_header_liste'>
-                    <li><Link to="/">ACCEUIL</Link></li>
-                    <li><Link to="/apropos">A PROPOS</Link></li>
+                    <li><Link to="/">Accueil</Link></li>
+                    <li><Link to="/apropos">A Propos</Link></li>
                 </ul>   
             </nav>
         </header>
