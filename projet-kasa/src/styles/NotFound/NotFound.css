@@ -7,6 +7,7 @@
 .error_Status > h1 {
   margin: 0;
   font-size: 200px;
+  margin-top: 10%;
 }
 .error_Status > p {
   margin: 0;
@@ -15,7 +16,7 @@
   font-weight: 500;
 }
 .error_Status > nav {
-  margin: 14% 0 15% 0;
+  margin: 14% 0 20% 0;
 }
 .error_Status > nav > a {
   font-weight: 500;
@@ -28,16 +29,16 @@
   .error_Status > h1 {
     height: 170px;
     font-size: 150px;
-    margin: 15% 0 0 0;
+    margin: 18% 0 0 0;
   }
   .error_Status > p {
-    margin-top: 5%;
+    margin-top: 8%;
     font-weight: 500;
     width: 70%;
     text-align: center;
   }
   .error_Status > nav {
-    margin: 20% 0 30% 0;
+    margin: 30% 0 42% 0;
   }
 }
 @media all and (max-width: 640px) {

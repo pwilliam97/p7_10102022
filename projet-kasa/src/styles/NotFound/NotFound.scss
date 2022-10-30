@@ -7,6 +7,7 @@
     >h1 {   
         margin: 0;
         font-size: 200px;
+        margin-top: 10%;
     }
 
     >p {
@@ -17,7 +18,7 @@
     }
 
     >nav {
-        margin: 14% 0 15% 0;
+        margin: 14% 0 20% 0;
         >a{
             font-weight: 500;
             border-bottom: 1px solid #FF6060;
@@ -33,18 +34,18 @@
         >h1 {   
             height: 170px;
             font-size: 150px;
-            margin: 15% 0 0 0;
+            margin: 18% 0 0 0;
         }
 
         >p {
-            margin-top: 5%;
+            margin-top: 8%;
             font-weight: 500;
             width: 70%;
             text-align: center;
         }
 
         >nav {
-            margin: 20% 0 30% 0;
+            margin: 30% 0 42% 0;
         }
     }
 }
