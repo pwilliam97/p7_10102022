@@ -5,7 +5,6 @@ import { useState } from 'react'
 function CollapseEquipments(props){
 
     const {equipments} = props;
-    console.log(equipments)
     const [open, setOpen] = useState(false);
     const toggle = () => {
         setOpen(!open);        

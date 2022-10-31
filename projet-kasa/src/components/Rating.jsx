@@ -1,23 +1,24 @@
 // Importation de REACT
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
 // Importation des assets
-import Logement from '../assets/logements.json'
+import starFull from '../assets/starFull.png'
+import starEmpty from '../assets/starEmpty.png'
 
-function Rating(){
-    const {logementId} = useParams();
-    const logement = Logement.find((item) => item.id === logementId)
+function Rating({value: rating}){
 
-    console.log(logement.rating)
+    console.log(rating)
 
     return (
-        <div>
-            <i className="fa fa-star rate"></i>
-            <i className="fa fa-star rate"></i>
-            <i className="fa fa-star rate"></i>
-            <i className="fa fa-star rate"></i>
-            <i className="fa fa-star rate"></i>
+        <div>                 
+                <div>                        
+                    <img src={rating > 0 ? starFull : starEmpty} alt="rating-stars" />                                             
+                    <img src={rating > 1 ? starFull : starEmpty} alt="rating-stars" />                                             
+                    <img src={rating > 2 ? starFull : starEmpty} alt="rating-stars" />                                             
+                    <img src={rating > 3 ? starFull : starEmpty} alt="rating-stars" />                                             
+                    <img src={rating > 4 ? starFull : starEmpty} alt="rating-stars" />                                             
+                </div>
+
         </div>
     )
 }

@@ -30,7 +30,7 @@ function Fiche_Logement(){
                     <ul>{(logement.tags).map((tags, index) => <Tags key={index} tags={tags}/>)}</ul>
                 </div>
                 <div className='renseignement_hebergement'>  
-                    <div className='rating'><Rating/></div>
+                    <div className='rating'><Rating value={logement.rating}/></div>
                     <div className='host'>
                         <h3 className='host_name'>{logement.host.name}</h3>
                         <img src={logement.host.picture} alt="" className='host_picture'/>
