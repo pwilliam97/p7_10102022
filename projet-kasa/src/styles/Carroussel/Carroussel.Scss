@@ -1,12 +1,17 @@
 .carroussel{
     text-decoration: none;
     height: 500px;
+
     >img{
         background-size: cover;
         z-index: 1;
         border-radius: 10px;
         height: 500px;
         width: 100%;
+    }
+    >p{
+        color: white;
+        margin: -50px 0 0 50%;
     }
 }
 
@@ -52,10 +57,14 @@
         >img{
             height: 250px;
         }
+
+        >p{
+            margin-left: 45%;
+        }
     }
 
     .carroussel_swipe{
-        margin-top: -160px;
+        margin-top: -140px;
 
         >button{
             font-size: 38px;

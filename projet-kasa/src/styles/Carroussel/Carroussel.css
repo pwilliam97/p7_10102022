@@ -9,6 +9,10 @@
   height: 500px;
   width: 100%;
 }
+.carroussel > p {
+  color: white;
+  margin: -50px 0 0 50%;
+}
 
 .carroussel_swipe {
   display: flex;
@@ -48,8 +52,11 @@
   .carroussel > img {
     height: 250px;
   }
+  .carroussel > p {
+    margin-left: 45%;
+  }
   .carroussel_swipe {
-    margin-top: -160px;
+    margin-top: -140px;
   }
   .carroussel_swipe > button {
     font-size: 38px;

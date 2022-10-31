@@ -2,16 +2,16 @@
 import React from 'react'
 import { useState } from 'react'
 
-
 function CollapseEquipments(props){
 
     const {equipments} = props;
-
+    console.log(equipments)
     const [open, setOpen] = useState(false);
-
     const toggle = () => {
         setOpen(!open);        
     }
+
+   
 
     return ( 
         <div className='collapse_equipement'>
@@ -23,7 +23,11 @@ function CollapseEquipments(props){
             </div>
             {open && (
                 <div className='deroulant'>
-                    <p>{equipments}</p>
+                    <p> 
+                        {equipments.map((value, index) => {
+                        return <li key={index}>{value}</li>
+                        })}
+                    </p>
                 </div>
             )}
         </div>

@@ -29,6 +29,7 @@ function Carroussel (props){
     return (
         <div className='carroussel'>
             <img src={images[position]} alt="" />
+            <p>{[position+1]}/{images.length}</p>
             <div className='carroussel_swipe'>
                 <button onClick = {imagePrecedente}><i className='fa-solid fa-angle-left'/></button>
                 <button onClick = {imageSuivante}><i className='fa-solid fa-angle-right'/></button>
